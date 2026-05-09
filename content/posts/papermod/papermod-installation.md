@@ -24,7 +24,7 @@ social:
 
 2. **Create a new {{< inTextImg url="https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo.png" height="14" >}} site**
 
-   ```sh
+   ```bash
    hugo new site MyFreshWebsite --format yaml
    # replace MyFreshWebsite with name of your website
    ```
@@ -99,7 +99,7 @@ social:
 
    - Intialize your own hugo mod
 
-   ```
+   ```bash
    hugo mod init YOUR_OWN_GIT_REPOSITORY
    ```
 
@@ -113,7 +113,7 @@ social:
 
    **UPDATE**:
 
-   ```
+   ```bash
    hugo mod get -u
    ```
 
