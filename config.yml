@@ -69,8 +69,8 @@ languages:
         - name: FRSeries
           url: frseries
           weight: 10
-        - name: NullLink
-          url: "#"
+        - name: External
+          url: "https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode"
 
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
@@ -78,7 +78,7 @@ languages:
       profileMode:
         enabled: true
         title: PaperMod
-        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+        imageUrl: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&h=200"
         imageTitle: ProfileMode image
         # imageWidth: 120
         # imageHeight: 120
