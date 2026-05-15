@@ -9,6 +9,7 @@ on:
     branches:
       - master
       - exampleSite
+      - mySite
   workflow_dispatch:
     # manual run
     inputs:
@@ -49,7 +50,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          ref: exampleSite
+          ref: mySite
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6
