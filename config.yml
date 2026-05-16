@@ -113,7 +113,7 @@ languages:
       languageAltTitle: Deutsch
       profileMode:
         enabled: true
-        title: "Freut mich! Ich bin Piri."
+        title: "Hey! Ich bin Piri."
         imageUrl: "images/me.png"
         imageTitle: "Das bin ich"
         # imageWidth: 120
