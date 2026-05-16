@@ -59,8 +59,8 @@ languages:
         - name: About
           url: about
           weight: 1
-        - name: Archive
-          url: archives
+        - name: Posts
+          url: posts
           weight: 2
         # - name: Search
         #   url: search/
