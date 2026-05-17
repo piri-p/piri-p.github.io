@@ -1,0 +1,18 @@
+---
+title: "LeetCode: Stack"
+date: 2026-05-17
+description: ""
+tags: [""]
+---
+
+Tricks from learning / practicing Stack:
+
+### Think about what to store in stack
+
+For example,
+* Waitlist of items that don't have the answer yet ([1475. Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/description/))
+  * Need to know index to backfill something or not?
+
+### Handle digit encounter
+
+`num = 10 * num + int(digit)`
