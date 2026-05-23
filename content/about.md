@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2026-05-24T17:00:00-04:00
+date: 2026-05-23T17:00:00-04:00
 description: ""
 draft: false
 hiddenInRss: true
