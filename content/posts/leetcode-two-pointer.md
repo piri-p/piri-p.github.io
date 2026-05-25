@@ -13,6 +13,8 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
 
 [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) - can start from head and tail with correct insert position in result.
 
+[844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) - can treat this kind of problem instead of cleaning up out of the loop, treat it as "find next valid character"
+
 ## Already known tricks
 
 * fast vs. slow pointers (insert_idx incremented conditionally)
