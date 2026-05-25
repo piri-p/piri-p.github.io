@@ -11,4 +11,4 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
 
 ## Already known tricks
 
-* fast vs. slow pointers
+* fast vs. slow pointers (insert_idx incremented conditionally)
