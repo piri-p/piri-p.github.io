@@ -17,6 +17,8 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
 
 [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) - can iterate on non-negative nums2 index since nums1 is already in correct position
 
+[Valid Word Abbreviation](https://neetcode.io/problems/valid-word-abbreviation) - in some questions esp. stack, integer is handled one by one. Here, consume all of them (including ones with preceding zeros which would be invalid) then comparison becomes trivial
+
 ## Already known tricks
 
 * fast vs. slow pointers (insert_idx incremented conditionally)
