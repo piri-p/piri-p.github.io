@@ -9,6 +9,10 @@ tags: [""]
 
 Questions like [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) can be done using split. Pure pointer solution involves 2x set of pointers, one to check boundary (i-1 when i corresponds to space), another to flip internally.
 
+## Questions I made awkward implementation
+
+[977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) - can start from head and tail with correct insert position in result.
+
 ## Already known tricks
 
 * fast vs. slow pointers (insert_idx incremented conditionally)
