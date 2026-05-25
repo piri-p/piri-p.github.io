@@ -15,6 +15,8 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
 
 [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) - can treat this kind of problem instead of cleaning up out of the loop, treat it as "find next valid character"
 
+[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) - can iterate on non-negative nums2 index since nums1 is already in correct position
+
 ## Already known tricks
 
 * fast vs. slow pointers (insert_idx incremented conditionally)
