@@ -31,7 +31,7 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
      
 1813. Sentence Similarity III <- trick is to find the start, they iterate backward until start and check if it meets. Don't do independently (similar to another q about prefix suffix)
 
-4Sum <- use 3Sum
+4Sum <- use 3Sum logic just 2 for loops (i, j)
 
 ## Already known tricks
 
