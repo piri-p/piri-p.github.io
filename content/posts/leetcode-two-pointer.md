@@ -22,3 +22,5 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
 ## Already known tricks
 
 * fast vs. slow pointers (insert_idx incremented conditionally)
+* 3x flips (2x internal, 1x full) - [189. Rotate Array](https://leetcode.com/problems/rotate-array)
+* move smaller pointer - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water)
