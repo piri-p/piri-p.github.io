@@ -42,3 +42,5 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
 * Btw: 2161. Partition Array According to Given Pivot => can just do 3 lists then concat
 
 * Meeting Scheduler: move the one that ends earlier because more room to get duration
+
+* 3Sum, 3SumSmaller, 4Sum: fix i, do two pointer of j,k ; iterate i
