@@ -40,3 +40,5 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
 * play where we lose min (min token to gain score, max token to gain token) - [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens)
 
 * Btw: 2161. Partition Array According to Given Pivot => can just do 3 lists then concat
+
+* Meeting Scheduler: move the one that ends earlier because more room to get duration
