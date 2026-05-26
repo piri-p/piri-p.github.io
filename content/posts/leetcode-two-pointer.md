@@ -23,7 +23,9 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
 
 1750. Minimum Length of String After Deleting Similar Ends <-- awkward implementation but LC is also too clever
 
-1968. Array With Elements Not Equal to Average of Neighbors <- smart one, just swap every even index with its right neibor so it's small large small larger ...
+1968. Array With Elements Not Equal to Average of Neighbors <- smart one, just swap every even index with its right neibor so it's small large small larger
+
+1969. 2109. Adding Spaces to a String <- easier implementation would be to interate through space with pointer on original string instead
 
 ## Already known tricks
 
