@@ -19,6 +19,8 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
 
 [Valid Word Abbreviation](https://neetcode.io/problems/valid-word-abbreviation) - in some questions esp. stack, integer is handled one by one. Here, consume all of them (including ones with preceding zeros which would be invalid) then comparison becomes trivial
 
+1578. Minimum Time to Make Rope Colorful <---- TODO: interesting solution
+
 ## Already known tricks
 
 * fast vs. slow pointers (insert_idx incremented conditionally)
