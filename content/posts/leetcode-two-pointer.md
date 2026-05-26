@@ -25,3 +25,4 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
 * 3x flips (2x internal, 1x full) - [189. Rotate Array](https://leetcode.com/problems/rotate-array)
 * move smaller pointer - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water)
 * stuff small with large whenever possible, as each boat contains max. 2 people. BUT this is different from another question where it can contain any number of people, I think in binary search - [881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people)
+* play where we lose min (min token to gain score, max token to gain token) - [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens)
