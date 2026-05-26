@@ -21,6 +21,8 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
 
 1578. Minimum Time to Make Rope Colorful <---- TODO: interesting solution
 
+1750. Minimum Length of String After Deleting Similar Ends <-- awkward implementation but LC is also too clever
+
 ## Already known tricks
 
 * fast vs. slow pointers (insert_idx incremented conditionally)
