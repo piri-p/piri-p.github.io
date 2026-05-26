@@ -27,7 +27,7 @@ Questions like [557. Reverse Words in a String III](https://leetcode.com/problem
 
 2109. Adding Spaces to a String <- easier implementation would be to interate through space with pointer on original string instead
 
-2110. 443. String Compression <- no need to keep track of current_char; just compare to the character before: if yes, add up to character before
+2110. 443. String Compression <- no need to keep track of current_char; just compare to the character before: if yes, add up to character before; also handle writing count with for loop by digit 
 
 ## Already known tricks
 
