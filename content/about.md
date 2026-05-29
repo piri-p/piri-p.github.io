@@ -6,6 +6,7 @@ draft: false
 hiddenInRss: true
 disableShare: true
 ShowBreadcrumbs: false
+aliases: ["/"]
 ---
 
 Nice to e-meet you! 
