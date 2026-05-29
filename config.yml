@@ -72,7 +72,7 @@ languages:
         #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
     params:
       profileMode:
-        enabled: true
+        enabled: false
         title: "Hi! I am Piri."
         imageUrl: "images/me.png"
         imageTitle: "It's me"
