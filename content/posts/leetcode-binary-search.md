@@ -13,3 +13,4 @@ Easy ones for this:
 * 1011. Capacity To Ship Packages Within D Days (stuck once forgetting that we load the weights in order)
 * Maximum Candies Allocated to K Children
 * 2560. House Robber IV
+  2616. Minimize the Maximum Difference of Pairs
