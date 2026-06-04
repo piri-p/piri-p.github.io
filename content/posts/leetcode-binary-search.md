@@ -23,3 +23,4 @@ awkward stuck in those questions we need to handle boundary (e.g. find majority,
 
 Trick is to do i > j+1 : 153. Find Minimum in Rotated Sorted Array
 OR COMPARE TO FIRST AND LAST
+Search In Rotated Sorted Array 
