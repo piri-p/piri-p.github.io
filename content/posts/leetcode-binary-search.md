@@ -22,3 +22,4 @@ Minimum Time to Repair Cars
 awkward stuck in those questions we need to handle boundary (e.g. find majority, find odd one, find peak)
 
 Trick is to do i > j+1 : 153. Find Minimum in Rotated Sorted Array
+OR COMPARE TO FIRST AND LAST
