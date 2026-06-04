@@ -14,3 +14,5 @@ Easy ones for this:
 * Maximum Candies Allocated to K Children
 * 2560. House Robber IV
   2616. Minimize the Maximum Difference of Pairs
+
+awkward stuck in those questions we need to handle boundary (e.g. find majority, find odd one, find peak)
