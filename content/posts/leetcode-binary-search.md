@@ -9,10 +9,16 @@ tags: ["leetcode"]
 
 Maximum of minimum / Minimum of maximum question - flip the brain and find the number where "given specification" (e.g. number of houses) is not possible
 Easy ones for this:
-* [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)
-* 1011. Capacity To Ship Packages Within D Days (stuck once forgetting that we load the weights in order)
-* Maximum Candies Allocated to K Children
-* 2560. House Robber IV
-  2616. Minimize the Maximum Difference of Pairs
+
+Koko Eating Bananas 
+Capacity to Ship Packages Within D Days 
+Maximum Candies Allocated to K Children	
+House Robber IV	
+Minimize the Maximum Difference of Pairs 
+Minimized Maximum of Products Distributed to Any Store	
+Minimum Limit of Balls in a Bag	
+Minimum Time to Repair Cars
 
 awkward stuck in those questions we need to handle boundary (e.g. find majority, find odd one, find peak)
+
+Trick is to do i > j+1 : 153. Find Minimum in Rotated Sorted Array
