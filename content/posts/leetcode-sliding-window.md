@@ -16,3 +16,4 @@ count/len/... = 0
 freq_dict or num
 ```
 Might need to do MaxUpTo / MinUpTo
+Be careful with starting the answer update after past k index
