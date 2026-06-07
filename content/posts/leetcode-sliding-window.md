@@ -15,3 +15,4 @@ count/len/... = 0
 
 freq_dict or num
 ```
+Might need to do MaxUpTo / MinUpTo
