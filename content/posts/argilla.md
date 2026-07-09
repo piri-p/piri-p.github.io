@@ -232,4 +232,7 @@ records = [
 ]
 
 created_dataset.records.log(records)
+
+## List Records in Dataset ##
+print(created_dataset.records.to_list())
 ```
