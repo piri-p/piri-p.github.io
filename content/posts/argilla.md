@@ -5,7 +5,7 @@ description: ""
 tags: [""]
 ---
 
-is open-source data annotation platform. It can be used for use cases like collecting annotated data for training our own Encoder model or tweaking LLM judge prompt.
+is an open-source data annotation platform. It can be used for use cases like collecting annotated data for training our own Encoder model or tweaking LLM judge prompt.
 * Article relevance classification
 * Query-passage relevance classification
 
