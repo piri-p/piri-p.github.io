@@ -9,6 +9,10 @@ is an inference framework.
 
 # Setup
 
-# Upload data
+# Deploy model
 
-# Search
+## HuggingFace model
+
+## ...
+
+# Inference
