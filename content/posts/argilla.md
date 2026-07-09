@@ -128,13 +128,13 @@ created_user = user_to_create.create()
 
 
 ## Add User to Workspace ##
-workspace = "default"
+ws = "default"
 
 client.users(username).add_to_workspace(client.workspaces(workspace))
 
 ## List Users ##
 print(list(client.users))
-print(list(client.workspaces(workspace).users))
+print(list(client.workspaces(ws).users))
 ```
 
 ### Datasets
