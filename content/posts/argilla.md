@@ -19,7 +19,7 @@ sed -i 's/-XX:UseSVE=0//g' docker-compose.yaml    # Need to remove the corrupted
 sudo docker compose up -d
 ```
 
-Inside the docker-compose.yml contains port that for access (e.g. `http://localhost:{port}`) as well as default username, password, and API key which can be used for initial login. These can be viewed again in setting page.
+Inside the docker-compose.yml contains port that for access (e.g. `http://localhost:PORT`) as well as default username, password, and API key which can be used for initial login. These can be viewed again in setting page.
 
 ### Setup on GCP Compute Engine
 
@@ -27,15 +27,17 @@ Inside the docker-compose.yml contains port that for access (e.g. `http://localh
 
 Compute Engine > VM instances > Create an instance
 * Machine configuration: e2-medium
-* Networking > Network tags: <machine tag>
+* Networking > Network tags: MACHINE_TAG
 
 **Setup firewall rule**
 
 Network Security > Firewall policies > Create a firewall rule (Note: **not** policy)
 * Direction: Ingress
-* Target tags: <machine tag>
+* Target tags: MACHINE_TAG
 * Source IPv4 ranges: 0.0.0.0/0 for all IP addresses; can also specify more restrictive one
 * Protocols and ports: Specified protocols and ports > TCP > 6900
+
+**Install Docker Engine**
 
 Install [Docker Engine](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) which includes also Docker Compose.
 ```bash
