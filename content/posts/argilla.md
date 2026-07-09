@@ -62,7 +62,7 @@ sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-Access by EXTERNAL_IP:PORT
+Access by http://EXTERNAL_IP:PORT
 
 ### Common issues with Setup
 
@@ -102,7 +102,7 @@ Remove  `-XX:UseSVE=0` flag from docker-compose.yml.
 ```bash
 import argilla as rg
 
-HOST = "http://localhost"
+HOST = "http://localhost"    # or External IP of VM
 PORT = 6900
 API_KEY = "argilla.apikey"
 
@@ -140,7 +140,7 @@ print(list(client.workspaces(workspace).users))
 ```bash
 import argilla as rg
 
-HOST = "http://localhost"
+HOST = "http://localhost"    # or External IP of VM
 PORT = 6900
 API_KEY = "argilla.apikey"
 
@@ -198,7 +198,7 @@ created_dataset = dataset.create()
 ```bash
 import argilla as rg
 
-HOST = "http://localhost"
+HOST = "http://localhost"    # or External IP of VM
 PORT = 6900
 API_KEY = "argilla.apikey"
 
