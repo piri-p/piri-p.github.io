@@ -16,3 +16,7 @@ is an inference framework.
 ## ...
 
 # Inference
+
+## Offline
+
+## Online
