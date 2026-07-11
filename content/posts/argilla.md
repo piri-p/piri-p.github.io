@@ -92,6 +92,10 @@ Error: A fatal exception has occurred. Program will exit.
 
 Remove  `-XX:UseSVE=0` flag from docker-compose.yml.
 
+**ERR_NETWORK_CHANGED: Your connection was interrupted on Browser**
+
+Suspected to cause by background docker compose process.
+
 ## Concepts
 
 * **Workspaces**
