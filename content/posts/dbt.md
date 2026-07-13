@@ -31,7 +31,7 @@ sources:
       - name: orders
 ```
 
-* **Schema + Testing** lives in schema.yaml. One entry per model can test their columns e.g. to not be null.
+* **Schema + Testing** lives in schema.yaml. One entry per model can test their columns e.g. not_null, unique.
 
 ```yaml
 version: 2
