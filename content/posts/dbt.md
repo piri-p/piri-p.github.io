@@ -40,8 +40,10 @@ version: 2
 
 models:
   - name: stg_customers
+    description: "This is table"
     columns:
       - name: id
+        description: "This is column"
         data_tests:
           - not_null
           - unique
@@ -62,6 +64,8 @@ models:
                 field: id
 
 ```
+
+Description can also be added. Recommended to be meaningful e.g. FK to which table, NULL when.
 
 ## Commands
  
