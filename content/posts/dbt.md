@@ -18,6 +18,7 @@ Distilled from resource at https://transformation-lab.datagym.io
 * {{config(materialized='table')}} makes Model a Table instead of View which may take longer time to build.
   * When to use Table - frequently queried table than it's rebuilt, costly to build.
 * **Sources** are upstream tables that dbt takes data from. They may sit in some warehouse. dbt DAG has no knowledge on their freshness or to test them. They are handled in sources.yaml.
+  * Operated on by source(<source_name>, <source_table>) 
 
 ```yaml
 version: 2
