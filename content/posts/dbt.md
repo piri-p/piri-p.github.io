@@ -31,7 +31,7 @@ sources:
       - name: orders
 ```
 
-* **Schema + Testing** lives in schema.yaml. One entry per model can test their columns e.g. not_null, unique.
+* **Schema + Testing** lives in schema.yaml. One entry per model can test their columns e.g. not_null, unique, relationships (all values in column X must exist in column Y), accepted_values.
 
 ```yaml
 version: 2
@@ -43,9 +43,22 @@ models:
         data_tests:
           - not_null
           - unique
-      - name: email
+  - name: stg_orders
+    columns:
+      - name: status
+        # Add a data_tests: block here with an accepted_values test (see the lesson example).
         data_tests:
-          - not_null
+          - accepted_values:
+              arguments:
+                values: ['paid', 'refunded', 'pending']
+      - name: customer_id
+        # Add a data_tests: block here with a relationships test (see the lesson example).
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: id
+
 ```
 
 ## Commands
@@ -56,3 +69,4 @@ models:
 * --select (short: -s) apply to specific model rather than the whole project
 * dbt compile - show compiled SQL command
 * dbt seed - load small, slow-changing CSV like country code mapping into dbt
+* dbt test
