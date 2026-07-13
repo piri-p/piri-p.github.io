@@ -17,6 +17,8 @@ Distilled from resource at https://transformation-lab.datagym.io
   * **marts** are polished output for business
 * {{config(materialized='table')}} makes Model a Table instead of View which may take longer time to build.
   * When to use Table - frequently queried table than it's rebuilt, costly to build.
+
+## Commands
  
 * dbt show - preview
 * dbt run - build without test
