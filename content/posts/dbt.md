@@ -65,6 +65,8 @@ models:
 
 ```
 
+* **singular tests**: tests/ folder, SQL statement to check that no_ (e.g. no_future_date -> should return no row)
+
 Description can also be added. Recommended to be meaningful e.g. FK to which table, NULL when.
 
 ## Commands
