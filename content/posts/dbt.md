@@ -19,7 +19,7 @@ Distilled from resource at https://transformation-lab.datagym.io
   * When to use Table - frequently queried table than it's rebuilt, costly to build.
 * **Sources** are upstream tables that dbt takes data from. They may sit in some warehouse; you didn't build them yourselves. dbt DAG has no knowledge on their freshness or to test them. They are handled in sources.yaml.
   * Operated on by source(<source_name>, <source_table>)
-* **Seeds** are small, slow-changing CSVs loaded into model. Used similarly with ref.
+* **Seeds** are small, slow-changing CSVs that don't need to be in DB, ok to be in version control. Loaded into model. Used similarly with ref.
 
 ```yaml
 version: 2
