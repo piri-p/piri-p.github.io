@@ -73,7 +73,7 @@ Description can also be added. Recommended to be meaningful e.g. FK to which tab
  
 * dbt show - preview
 * dbt run - build without test
-* dbt build - build with test
+* dbt build - build with test (run + test but skip downstream failures if upstream fails somewhere)
 * --select (short: -s) apply to specific model rather than the whole project
   * -s +<model_name> for upstream, <model_name>+ for downstream
 * dbt compile - show compiled SQL command
