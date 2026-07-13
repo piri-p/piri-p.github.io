@@ -31,6 +31,23 @@ sources:
       - name: orders
 ```
 
+* **Schema + Testing** lives in schema.yaml. One entry per model can test their columns e.g. to not be null.
+
+```yaml
+version: 2
+
+models:
+  - name: stg_customers
+    columns:
+      - name: id
+        data_tests:
+          - not_null
+          - unique
+      - name: email
+        data_tests:
+          - not_null
+```
+
 ## Commands
  
 * dbt show - preview
