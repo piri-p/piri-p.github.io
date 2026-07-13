@@ -23,5 +23,5 @@ Distilled from resource at https://transformation-lab.datagym.io
 * dbt show - preview
 * dbt run - build without test
 * dbt build - build with test
-* --select apply to specific model
+* --select apply to specific model rather than the whole project
 * dbt compile - show compiled SQL command
