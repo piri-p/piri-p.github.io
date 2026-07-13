@@ -73,7 +73,7 @@ Description can also be added. Recommended to be meaningful e.g. FK to which tab
 * dbt run - build without test
 * dbt build - build with test
 * --select (short: -s) apply to specific model rather than the whole project
-  * -s +<model_name> for upstream, <model_name>+
+  * -s +<model_name> for upstream, <model_name>+ for downstream
 * dbt compile - show compiled SQL command
 * dbt seed - load small, slow-changing CSV like country code mapping into dbt
 * dbt test
