@@ -50,13 +50,11 @@ models:
   - name: stg_orders
     columns:
       - name: status
-        # Add a data_tests: block here with an accepted_values test (see the lesson example).
         data_tests:
           - accepted_values:
               arguments:
                 values: ['paid', 'refunded', 'pending']
       - name: customer_id
-        # Add a data_tests: block here with a relationships test (see the lesson example).
         data_tests:
           - relationships:
               arguments:
