@@ -240,3 +240,7 @@ created_dataset.records.log(records)
 ## List Records in Dataset ##
 print(created_dataset.records.to_list())
 ```
+
+## Implementation Deepdive
+
+TODO - Docker compose file of Argilla consists of PostgreSQL, ElasticSearch, and Redis.
