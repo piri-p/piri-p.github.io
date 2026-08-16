@@ -8,10 +8,10 @@ disableShare: true
 ShowBreadcrumbs: false
 ---
 
-LLM-Powered Naturally Embedded Recommendation, RecSys 2026 [Paper coming soon](https://recsys.acm.org/recsys26/contributions/)
+LLM-Powered Naturally Embedded Recommendation, RecSys 2026 ([Paper coming soon](https://recsys.acm.org/recsys26/contributions/))
 
-Unified Argument Retrieval System from German News Articles Using Large Language Models, CIKM 2024 [Paper](https://dl.acm.org/doi/10.1145/3627673.3679232)
+Unified Argument Retrieval System from German News Articles Using Large Language Models, CIKM 2024 ([Paper](https://dl.acm.org/doi/10.1145/3627673.3679232))
 
-Improving German News Clustering with Contrastive Learning, CIKM 2024 [Paper](https://dl.acm.org/doi/10.1145/3627673.3679944)
+Improving German News Clustering with Contrastive Learning, CIKM 2024 ([Paper](https://dl.acm.org/doi/10.1145/3627673.3679944))
 
-Tightening the Loop in Mixed-Initiative ML Engineering and Domain Annotation using Active Learning and Visual Analytics, IEEE VIS 2022 [Presentation](https://virtual.ieeevis.org/year/2022/paper_w-biomedicalai-1053.html) [Paper](https://vis-biomed-ai.github.io/assets/pdf/vis22t-sub1053-cam-i7.pdf)
+Tightening the Loop in Mixed-Initiative ML Engineering and Domain Annotation using Active Learning and Visual Analytics, IEEE VIS 2022 [Presentation](https://virtual.ieeevis.org/year/2022/paper_w-biomedicalai-1053.html) ([Paper],(https://vis-biomed-ai.github.io/assets/pdf/vis22t-sub1053-cam-i7.pdf))
