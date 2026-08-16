@@ -7,6 +7,8 @@ disableShare: true
 ShowBreadcrumbs: false
 ---
 
+Predicting Causal Effects from Natural Language Queries using Structured Representations ([arXiv Paper](https://arxiv.org/pdf/2605.29631), under review for EMNLP)
+
 LLM-Powered Naturally Embedded Recommendation, RecSys 2026 ([Paper](https://dl.acm.org/doi/10.1145/3773078.3841284))
 
 Unified Argument Retrieval System from German News Articles Using Large Language Models, CIKM 2024 ([Paper](https://dl.acm.org/doi/10.1145/3627673.3679232))
