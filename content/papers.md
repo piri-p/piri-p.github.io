@@ -7,7 +7,7 @@ disableShare: true
 ShowBreadcrumbs: false
 ---
 
-Predicting Causal Effects from Natural Language Queries using Structured Representations ([arXiv Paper](https://arxiv.org/pdf/2605.29631), under review for EMNLP)
+Predicting Causal Effects from Natural Language Queries using Structured Representations ([arXiv Paper](https://arxiv.org/pdf/2605.29631), under review for EMNLP 2026)
 
 LLM-Powered Naturally Embedded Recommendation, RecSys 2026 ([Paper](https://dl.acm.org/doi/10.1145/3773078.3841284))
 
