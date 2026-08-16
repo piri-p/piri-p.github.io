@@ -1,13 +1,14 @@
 ---
 title: "Papers"
 description: ""
+date: 2026-05-14T17:00:00-04:00
 draft: false
 hiddenInRss: true
 disableShare: true
 ShowBreadcrumbs: false
 ---
 
-LLM-Powered Naturally Embedded Recommendation, RecSys 2026 ([Paper coming soon](https://recsys.acm.org/recsys26/contributions/))
+LLM-Powered Naturally Embedded Recommendation, RecSys 2026 ([Paper](https://dl.acm.org/doi/10.1145/3773078.3841284))
 
 Unified Argument Retrieval System from German News Articles Using Large Language Models, CIKM 2024 ([Paper](https://dl.acm.org/doi/10.1145/3627673.3679232))
 
