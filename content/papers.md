@@ -1,7 +1,6 @@
 ---
 title: "Papers"
 description: ""
-date: 2026-05-14T17:00:00-04:00
 draft: false
 hiddenInRss: true
 disableShare: true
